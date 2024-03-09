@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <title>Firework Sandbox</title>
+    <link rel="stylesheet" type="text/css" href="src/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Firework Sandbox</h1>
+        <p>
+            Welcome to this fireworks sandbox!  
+            Here you can create diffrent firework looks based off of the controls.
+            So what are you waiting for? lets start making your very own firework show!
+        </p>
+    </header>
+    <main><canvas id="canvas"></canvas></main>
+    <footer>
+        <div id=reset>
+            <button id=resetButton>Clear Page</button>
+        </div>
+        <div id=divergenceControl>
+            <p>Angle:</p>
+            <input type="radio" name="angle" checked value=137.5> 137.5
+            <input type="radio" name="angle" value=86> 86
+            <input type="radio" name="angle" value=215> 215
+        </div>
+
+        <div id=colorControl>
+            <p>Color:</p>
+            <input type="radio" name="color" checked value="rainbow"> Rainbow
+            <input type="radio" name="color" id=red value="red"> Red
+            <input type="radio" name="color" id=green value="green"> Green
+            <input type="radio" name="color" id=blue value="blue"> Blue  
+        </div>
+
+        <div id=filterControl>
+            <p>Filters :</p>
+            <input type="checkbox" id="luminosity" name="filter"> Luminosity
+            <input type="checkbox" id="glow" name="filter" > Glow
+            <input type="checkbox" id="gradient" name="filter"> Gradient
+        </div>
+
+        <div id=speedControl>
+            <p>Speed:</p>
+            <input type="range" min="100" max="1000" value="666" class="slider" id="speed" name="speed">
+          </div>
+    </footer>
+
+
+    <script src="src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    color: white;
+    background:rgb(47, 37, 70);
+    font-family: 'Lemonada', cursive;
+}
+canvas{ 
+    border: 1px solid black;
+}
+button{
+    width: 85%;
+    margin:5px;
+    margin-left: 7%;
+    background-color: rgb(39, 37, 124); /* Green */
+    border: 2px solid rgb(217, 249, 255);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display:inline-block;
+    font-family: 'Lemonada', cursive;
+}
+
+#divergenceControl,#colorControl,#filterControl,#speedControl{
+    display: inline-block;
+    width:45%;
+    border: 2px solid rgb(217, 249, 255);
+    height:6rem;
+    padding:10px;
+    margin:5px;
+}
