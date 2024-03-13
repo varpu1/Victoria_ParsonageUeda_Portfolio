@@ -96,14 +96,14 @@ body[theme=light] {
     background-color: #b8f1ea;
     color: black;
     .logo {
-        content: url("../assets/black_color_logo2.png");
+        content: url("../assets/icons/black_color_logo2.png");
     }
     #modeToggle {
-        background-image: url("../assets/moonIcon1.png");
+        background-image: url("../assets/icons/moonIcon1.png");
     }
     #modeToggle:hover {
         animation: moonSwitch 1s 1;
-        background-image: url("../assets/moonIcon2.png");
+        background-image: url("../assets/icons/moonIcon2.png");
     }
     #bar {
         background-color: rgb(184, 241, 234, 25%);
@@ -129,14 +129,14 @@ body[theme=dark] {
     /* background-color: #0f3632; */
     .logo {
         /* width: 50px; */
-        content: url("../assets/white_color_logo.png");
+        content: url("../assets/icons/white_color_logo.png");
     }
     #modeToggle {
-        background-image: url("../assets/sunIcon1.JPG");
+        background-image: url("../assets/icons/sunIcon1.JPG");
     }
     #modeToggle:hover {
         animation: sunSwitch 1s 1;
-        background-image: url("../assets/sunicon2.png");
+        background-image: url("../assets/icons/sunicon2.png");
     }
     #bar {
         background-color: rgba(3, 37, 47, 25%);
@@ -157,7 +157,7 @@ a:visited {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url("../assets/moonIcon1.JPG");
+    background-image: url("../assets/icons/moonIcon1.JPG");
     /* image */
     background-position: center;
     background-repeat: no-repeat;
@@ -315,11 +315,11 @@ list-style-type: none; */
 
 @keyframes moonSwitch {
     0% {
-        background-image: url("../assets/moonIcon1.png");
+        background-image: url("../assets/icons/moonIcon1.png");
     }
     50% {
         transform: rotate(45deg);
-        background-image: url("../assets/moonIcon2.png");
+        background-image: url("../assets/icons/moonIcon2.png");
     }
     100% {
         transform: rotate(0deg);
@@ -328,11 +328,11 @@ list-style-type: none; */
 
 @keyframes sunSwitch {
     0% {
-        background-image: url("../assets/sunIcon1.jpg");
+        background-image: url("../assets/icons/sunIcon1.jpg");
     }
     50% {
         transform: rotate(45deg);
-        background-image: url("../assets/sunicon2.png");
+        background-image: url("../assets/icons/sunicon2.png");
     }
     100% {
         transform: rotate(0deg);
