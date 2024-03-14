@@ -8,16 +8,13 @@ const lastBtn = document.querySelector("#lastBtn")
 var slideShow = []
 var index = 0
 
-// window.addEventListener("pageshow", () => { console.log("woof") });
 window.addEventListener("load", linkSet);
 
 function linkSet() {
-    console.log("bark")
     const urlParams = new URLSearchParams(window.location.search);
     const projectName = urlParams.get('name');
     let project = projects.find(obj => obj.title == projectName);
 
-    console.log(project)
 
     for (let slide of project.slides) {
         slideShow.push(`https://varpu1.github.io/Victoria_ParsonageUeda_Portfolio/assets/slideAssets/${project.num}/${slide}`)
@@ -34,8 +31,8 @@ function linkSet() {
 
 function load() {
     slide = slideShow[index]
-    slideType = slide.slice(slide.slice(21).indexOf(".") + 21)
-    console.log(slideType)
+    slideType = slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets"))
+        // console.log(slideType)
     if (slideType == ".mp4") {
         vidDiv.style.display = "block"
         imgDiv.style.display = "none"
@@ -43,8 +40,8 @@ function load() {
         vidDivSrc.src = slide
         vidDiv.load()
         vidDiv.play()
-        console.log(vidDiv)
-        console.log(vidDiv.readyState)
+            // console.log(vidDiv)
+            // console.log(vidDiv.readyState)
         vidDiv.addEventListener("readystatechange", () => { console.log(vidDiv.readyState + " blooob") })
         if (vidDiv.readyState == 4) {
             console.log("loaded")

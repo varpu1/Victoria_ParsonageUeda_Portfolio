@@ -42,9 +42,7 @@ var projects = [{
         num: 3,
         img: "/assets/clipImgs/AR_GlassesClip.jpg",
         title: "Augmented Reality Glasses",
-        desc: [
-            ""
-        ],
+        desc: "Designed, built, and programmed AR glasses that allowed the user to play an obstacle avoidance game by moving their hand levitation ",
         file: "projectsFiles/P1/index.html",
         frameId: "ARGlasses",
         skills: ["Arduino", "Soldering", "C++", "Transparent OLED"],
@@ -55,12 +53,10 @@ var projects = [{
         num: 4,
         img: "/assets/clipImgs/3dFace.webp",
         title: "Facial Motion Capture",
-        desc: [
-            ""
-        ],
+        desc: "Make a 3D model face mirror a facial expression, live",
         file: "projectsFiles/P1/index.html",
         frameId: "facialMoCap",
-        skills: ["Unreal Engine 4", "Ureal Blueprint", "C++"],
+        skills: ["Unreal Engine 4", "Ureal Blueprint", "C++", "Apple iPhone TrueDepth technology"],
         tags: ["Game Engine"],
         slides: ["cardBalc-bubbles.JPG"]
     },
@@ -69,7 +65,10 @@ var projects = [{
         img: "/assets/clipImgs/LedGrad.jpg",
         title: "BrightMinds",
         desc: [
-            ""
+            "Created a customizable LED graduation cap with a connecting mobile site that allowed the user to edit or create their design and send it to the cap ",
+            "Sole developer working with a team of 3 designers",
+            "Did all of the back end and most of the front end development as well as the hardware engineering",
+            "Integral in the product design and creation process"
         ],
         file: "projectsFiles/P1/index.html",
         frameId: "brightMinds",

@@ -39,8 +39,8 @@
         <h2 class="titleMount">Projects</h2>
         <div id="media">
             <button id="lastBtn" class="arrowBtn">&#x22D6;</button>
-            <img id="mediaImg">
-            <video id="mediaVid" muted loop>
+            <img id="mediaImg" alt="Media Image">
+            <video id="mediaVid" muted loop alt="Media Video">
                 <source src="" id="mediaVidSrc" type="video/mp4" />
             </video>
             <button id="nextBtn" class="arrowBtn">&#x22D7;</button>
@@ -78,7 +78,7 @@
 
             title.innerHTML = projectName
 
-            if (project.desc.typeOf == "string") {
+            if (typeof project.desc == "string") {
                 desc.innerHTML = project.desc
             } else {
                 let ul = document.createElement("ul")
