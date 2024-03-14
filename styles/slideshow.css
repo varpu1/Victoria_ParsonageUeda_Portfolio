@@ -11,6 +11,7 @@
 
 #mediaImg,
 #media video {
+    display: none;
     max-height: 47vh;
     /* position: absolute; */
     /* margin: auto; */
@@ -58,7 +59,8 @@
 
 @counter-style diamond {
     system: cyclic;
-    symbols: '\22B9' '\21A0' '\223B' '\2053' '\205B' '\203B' '\2042';
+    symbols: '\223B';
+    /* '\22B9' '\21A0'  '\2053' '\205B' '\203B' '\2042'; */
     suffix: " "
 }
 
@@ -83,6 +85,15 @@ ul {}
     background: none;
     border: none;
     outline: none;
+}
+
+#projectLink {
+    margin: 10px auto;
+    padding: 2px 5px;
+    border-radius: 20px;
+    background: radial-gradient(rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.4)) padding-box, linear-gradient(to bottom right, hsl(220, 100%, 65%), hsl(290, 100%, 65%))border-box;
+    /* border-image: linear-gradient(to bottom right, hsl(220, 100%, 65%), hsl(290, 100%, 65%)); */
+    border: 3px solid transparent;
 }
 
 body[theme=dark] .arrowBtn {

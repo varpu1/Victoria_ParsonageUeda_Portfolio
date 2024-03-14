@@ -12,6 +12,23 @@ var projects = [{
     },
     {
         num: 1,
+        img: "../assets/clipImgs/NASA_logo.svg.png",
+        title: "NASA 'Starcheologist'",
+        desc: [
+            "Won <b>1st place</b> award in Technology, the Arts, and Design (TAD) Competition",
+            "Built a gamified VR training system that combines interactive games with real-time visual biofeedback for proprioceptive training, performance - based assessment, and sensorimotor conditioning.",
+            "Developer on a team working with engineers, and exercise scientist",
+            "Integral in creating an Indiana Jones inspired game (Starcheologist)",
+            "Worked on the communication between game and rig system"
+        ],
+        file: "projectsFiles/P1/index.html",
+        frameId: "NASA",
+        skills: ["Unity", "C#"],
+        tags: ["Game Engine"],
+        slides: ["cardBalc-bubbles.JPG"]
+    },
+    {
+        num: 1,
         img: "../assets/clipImgs/audio_visualizer_snip.JPG",
         title: "Audio Visualizer",
         desc: "This audio visualizer has a set of music that you can choose from and shows a version of customizable audio visualization for that song.",
@@ -20,6 +37,45 @@ var projects = [{
         skills: ["javascript"],
         tags: ["js"],
         slides: []
+    },
+    {
+        num: 1,
+        img: "../assets/clipImgs/AR_GlassesClip.jpg",
+        title: "Augmented Reality Glasses",
+        desc: [
+            ""
+        ],
+        file: "projectsFiles/P1/index.html",
+        frameId: "ARGlasses",
+        skills: ["Arduino", "Soldering", "C++", "Transparent OLED"],
+        tags: ["hardware", "micro electronics"],
+        slides: ["cardBalc-bubbles.JPG"]
+    },
+    {
+        num: 1,
+        img: "../assets/clipImgs/3dFace.webp",
+        title: "Facial Motion Capture",
+        desc: [
+            ""
+        ],
+        file: "projectsFiles/P1/index.html",
+        frameId: "facialMoCap",
+        skills: ["Unreal Engine 4", "Ureal Blueprint", "C++"],
+        tags: ["Game Engine"],
+        slides: ["cardBalc-bubbles.JPG"]
+    },
+    {
+        num: 1,
+        img: "../assets/clipImgs/LedGrad.jpg",
+        title: "BrightMinds",
+        desc: [
+            ""
+        ],
+        file: "projectsFiles/P1/index.html",
+        frameId: "brightMinds",
+        skills: ["Unity", ""],
+        tags: ["Game Engine"],
+        slides: ["cardBalc-bubbles.JPG"]
     },
     {
         num: 2,
@@ -45,7 +101,7 @@ var projects = [{
     },
     {
         num: 4,
-        img: "../assets/clipImgs/AI.PNG",
+        img: "../assets/clipImgs/mrClip.png",
         title: "AR/VR/MR",
         desc: "This was a project that I coded and designed by myself in my first semester at RIT.  It has a breakdown of information about different XR types.",
         file: "https://people.rit.edu/~vap8665/igme110/2018project/",
@@ -56,7 +112,7 @@ var projects = [{
     },
     {
         num: 5,
-        img: "../assets/clipImgs/brownie_recipe.PNG",
+        img: "../assets/clipImgs/brownieClip.jpg",
         title: "Brownie Recipe",
         desc: "I did all of the coding for this project as well as the design for this project",
         file: "https://people.rit.edu/vap8665/230/project1/",

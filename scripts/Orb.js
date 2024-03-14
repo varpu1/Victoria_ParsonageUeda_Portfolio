@@ -3,13 +3,19 @@ class Orb {
         this.x = x;
         this.y = y;
         this.rad = radius;
-        let n = [-2, -1, 1, 2];
-        this.xs = n[random(0, 4)]; //x speed&direction
-        this.ys = n[random(0, 4)]; //y speed&direction
+        let n = [-1.75, -1.35, -1, 1, 1.35, 1.75];
+        this.xs = n[Math.floor(Math.random() * 6)]; //x speed&direction
+        this.ys = n[Math.floor(Math.random() * 6)]; //y speed&direction
+
+        // this.xs = Math.random() * 4 - 2; //x speed&direction
+        // this.ys = Math.random() * 2 - 1; //y speed&direction
+        // this.ys = (this.ys <= 0 && this.ys > -.75) ? this.ys -= .5 : this.ys
+        // this.xs = (this.xs >= 0 && this.xs < .75) ? this.xs -= .5 : this.xs
+
         this.ctx = ctx;
         this.pop = false;
         this.rest = 25;
-        this.randomStartColor = random(0, 360)
+        this.randomStartColor = random(0, 360);
         this.txt = txt;
 
         let time = random(50000, 75000)
@@ -19,17 +25,17 @@ class Orb {
             // console.log(this.x, this.y)
     }
     move(w, h) {
-        if (this.xs > 1) {
-            this.xs -= .5
-        } else if (this.xs < -1) {
-            this.xs += .5
-        }
+        // if (this.xs > 1) {
+        //     this.xs -= .5
+        // } else if (this.xs < -1) {
+        //     this.xs += .5
+        // }
 
-        if (this.ys > 1) {
-            this.ys -= .5
-        } else if (this.ys < -1) {
-            this.ys += .5
-        }
+        // if (this.ys > 1) {
+        //     this.ys -= .5
+        // } else if (this.ys < -1) {
+        //     this.ys += .5
+        // }
 
         if (this.x < this.rad || this.x > w - this.rad) {
             this.xs *= -1;

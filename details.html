@@ -64,19 +64,32 @@
             const currentUrl = window.location.href;
             // console.log(currentUrl);
 
+            const desc = document.querySelector("#description")
+
             const urlParams = new URLSearchParams(window.location.search);
             const projectName = urlParams.get('name');
             // console.log(projectName)
 
             const title = document.querySelector(".titleMount")
-            const desc = document.querySelector("#description")
             const pLink = document.querySelector("#projectLink")
             const skillsList = document.querySelector("#skills").firstElementChild
                 // let project = projects[index]
             let project = projects.find(obj => obj.title == projectName);
 
             title.innerHTML = projectName
-            desc.innerHTML = project.desc
+
+            if (project.desc.typeOf == "string") {
+                desc.innerHTML = project.desc
+            } else {
+                let ul = document.createElement("ul")
+                desc.innerHTML = ""
+                for (let d of project.desc) {
+                    let li = document.createElement("li")
+                    li.innerHTML = d
+                    ul.appendChild(li)
+                }
+                desc.appendChild(ul)
+            }
 
             if (project.file != "") {
                 pLink.href = project.file

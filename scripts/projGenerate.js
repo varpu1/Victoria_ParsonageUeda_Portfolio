@@ -27,28 +27,29 @@ function generate() {
 
         // blurHex.className = "shadeHex";
 
-        tags.className = "tagsContainer"
-        for (let tag of project.tags) {
-            let t = document.createElement("p")
-            t.className = "tag"
-            t.innerHTML = tag
-            switch (tag) {
-                case "js":
-                    t.classList.add("jsTag")
-                    break;
-                case "html/css":
-                    t.classList.add("websiteTag")
-                    break;
-                case "API":
-                    t.classList.add("apiTag")
-                    break;
+        /*
+                tags.className = "tagsContainer"
+                for (let tag of project.tags) {
+                    let t = document.createElement("p")
+                    t.className = "tag"
+                    t.innerHTML = tag
+                    switch (tag) {
+                        case "js":
+                            t.classList.add("jsTag")
+                            break;
+                        case "html/css":
+                            t.classList.add("websiteTag")
+                            break;
+                        case "API":
+                            t.classList.add("apiTag")
+                            break;
 
-            }
+                    }
 
-            tags.appendChild(t)
+                    tags.appendChild(t)
 
-        }
-
+                }
+        */
         title.innerHTML = project.title
             // title.innerHTML = "title"
 
