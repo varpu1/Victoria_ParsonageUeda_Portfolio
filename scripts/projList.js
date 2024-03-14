@@ -1,7 +1,7 @@
 // const projects = () => {
 var projects = [{
         num: 0,
-        img: "master/assets/clipImgs/fireworks_snip_2.JPG",
+        img: "https://varpu1.github.io/Victoria_ParsonageUeda_Portfolio/assets/clipImgs/fireworks_snip_2.JPG",
         title: "Fireworks Interactive Sandbox",
         desc: "This sandbox allows the user to create different firework like effects",
         file: "projectsFiles/P1/index.html",
