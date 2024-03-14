@@ -49,6 +49,7 @@ class Orb {
         this.x += this.xs;
         this.y += this.ys;
 
+
         //draws bubble
         if (this.txt == false) {
             drawGradientCircle(this.ctx, this.x, this.y, this.x1, this.y1, this.rad, this.randomStartColor)
