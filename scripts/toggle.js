@@ -14,7 +14,7 @@ function themeSwitch() {
     // document.body.setAttribute('theme', document.body.getAttribute("theme") ? 'dark' : 'light');
 }
 
-window.addEventListener("pageshow", getTheme)
+// window.addEventListener("pageshow", getTheme)
 
 function getTheme() {
     if (localStorage.getItem("theme") == "dark") {
@@ -24,7 +24,7 @@ function getTheme() {
     }
 }
 document.onreadystatechange = function(e) {
-    if (document.readyState === 'complete') {
+    if (document.readyState === 'interactive') {
         getTheme()
     }
 };

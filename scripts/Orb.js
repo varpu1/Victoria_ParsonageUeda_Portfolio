@@ -3,9 +3,12 @@ class Orb {
         this.x = x;
         this.y = y;
         this.rad = radius;
-        let n = [-1.75, -1.35, -1, 1, 1.35, 1.75];
-        this.xs = n[Math.floor(Math.random() * 6)]; //x speed&direction
-        this.ys = n[Math.floor(Math.random() * 6)]; //y speed&direction
+        this.x1 = (Math.random() * this.rad)
+        this.y1 = (Math.random() * this.rad)
+
+        let n = [-1.75, 1.5, -1.35, -1.20, -1, -.75, -.5, .5, .75, 1, 1.20, 1.35, 1.5, 1.75];
+        this.xs = n[Math.floor(Math.random() * n.length)]; //x speed&direction
+        this.ys = n[Math.floor(Math.random() * n.length)]; //y speed&direction
 
         // this.xs = Math.random() * 4 - 2; //x speed&direction
         // this.ys = Math.random() * 2 - 1; //y speed&direction
@@ -48,7 +51,7 @@ class Orb {
 
         //draws bubble
         if (this.txt == false) {
-            drawGradientCircle(this.ctx, this.x, this.y, this.rad, this.randomStartColor)
+            drawGradientCircle(this.ctx, this.x, this.y, this.x1, this.y1, this.rad, this.randomStartColor)
         } else {
             let c = drawCircle(this.ctx, this.x, this.y, this.rad)
             c == "dark" ? this.ctx.fillStyle = "#000000" : this.ctx.fillStyle = "#ffffff";

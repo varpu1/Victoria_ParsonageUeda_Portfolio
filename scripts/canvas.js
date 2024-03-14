@@ -90,10 +90,10 @@ function random(min, max) {
 }
 
 
-function drawGradientCircle(ctx, x, y, radius, strokeColor) {
+function drawGradientCircle(ctx, x, y, x2, y2, radius, strokeColor) {
     ctx.save();
 
-    let strokeGrad = ctx.createLinearGradient(x, y + radius * 2, x + radius * 2, y);
+    let strokeGrad = ctx.createLinearGradient(x, y + y2 * 2, x + x2 * 2, y);
     strokeGrad.addColorStop("0", `hsla(${strokeColor},100%,65%,.9)`);
     strokeGrad.addColorStop("1.0", `hsla(${(strokeColor+70)%360},100%,65%,.9)`);
 
