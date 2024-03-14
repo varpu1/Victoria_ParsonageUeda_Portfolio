@@ -21,7 +21,7 @@ function generate() {
 
         innerHex.className = "hexHex"
             // innerHex.style.backgroundImage = `url(${project.img })` //sets an image for the hex
-        img.src = project.img;
+        img.src = "https://varpu1.github.io/Victoria_ParsonageUeda_Portfolio" + project.img;
 
         overTxt.className = "overlayTxt";
 
