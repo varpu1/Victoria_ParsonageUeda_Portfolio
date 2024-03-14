@@ -54,28 +54,8 @@ html::-webkit-scrollbar-track,
     border-radius: 3px;
 }
 
-.info-container {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #2d28ce66;
-    margin: 30px;
-    padding: 25px;
-    border-radius: 5px;
-}
-
-#info {
-    width: 80%;
-}
-
 #description {
     padding: 10px;
-}
-
-#media {
-    height: 47vh;
-    width: 90vw;
-    margin: auto;
-    border: black solid 4px;
 }
 
 #projectLink {
@@ -85,10 +65,6 @@ html::-webkit-scrollbar-track,
     background: radial-gradient(rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.4)) padding-box, linear-gradient(to bottom right, hsl(220, 100%, 65%), hsl(290, 100%, 65%))border-box;
     /* border-image: linear-gradient(to bottom right, hsl(220, 100%, 65%), hsl(290, 100%, 65%)); */
     border: 3px solid transparent;
-}
-
-#skills {
-    border-left: rgb(255, 0, 136) double 5px;
 }
 
 body[theme=light] {

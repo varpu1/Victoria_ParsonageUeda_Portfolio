@@ -6,7 +6,9 @@ var projects = [{
         desc: "This sandbox allows the user to create different firework like effects",
         file: "projectsFiles/P1/index.html",
         frameId: "firework",
-        tags: ["js"]
+        skills: ["javascript"],
+        tags: ["js"],
+        slides: ["cardBalc-bubbles.JPG", "fireworksDemo.mp4"]
     },
     {
         num: 1,
@@ -15,7 +17,9 @@ var projects = [{
         desc: "This audio visualizer has a set of music that you can choose from and shows a version of customizable audio visualization for that song.",
         file: "projectsFiles/P2/index.html",
         frameId: "audioVisualizer",
-        tags: ["js"]
+        skills: ["javascript"],
+        tags: ["js"],
+        slides: []
     },
     {
         num: 2,
@@ -24,7 +28,9 @@ var projects = [{
         desc: "I used fractals and random lengths to create diffrent tree shapes. Every time you refresh the page it will create a new tree shape",
         file: "projectsFiles/trees/index.html",
         frameId: "cherryTree",
-        tags: ["js"]
+        skills: ["javascript"],
+        tags: ["js"],
+        slides: []
     },
     {
         num: 3,
@@ -33,31 +39,42 @@ var projects = [{
         desc: "The fish are on a loop, each type at a diffrent speed, if you hover over them their tail will wiggle.",
         file: "projectsFiles/aquarium/index.html",
         frameId: "aquarium",
-        tags: ["js"]
+        skills: ["javascript"],
+        tags: ["js"],
+        slides: []
     },
     {
+        num: 4,
         img: "../assets/clipImgs/AI.PNG",
         title: "AR/VR/MR",
         desc: "This was a project that I coded and designed by myself in my first semester at RIT.  It has a breakdown of information about different XR types.",
         file: "https://people.rit.edu/~vap8665/igme110/2018project/",
         frameId: "XRPaper",
-        tags: ["html/css"]
+        skills: ["html", "css", "web design"],
+        tags: ["web"],
+        slides: []
     },
     {
+        num: 5,
         img: "../assets/clipImgs/brownie_recipe.PNG",
         title: "Brownie Recipe",
         desc: "I did all of the coding for this project as well as the design for this project",
         file: "https://people.rit.edu/vap8665/230/project1/",
         frameId: "Brownies",
-        tags: ["html/css"]
+        skills: ["html", "css"],
+        tags: ["web"],
+        slides: []
     },
     {
+        num: 6,
         img: "../assets/clipImgs/name.PNG",
         title: "What's in a Name?",
         desc: "I did the HTML and JavaScript for this project working alongside a designer who did the CSS. We created this pulling from an Urban Dictionary API",
         file: "https://people.rit.edu/vap8665/230/project2/api.html",
         frameId: "whatName",
-        tags: ["html/css", "API", "js"]
+        skills: ["html", "css", "javascript", "API"],
+        tags: ["web", "js"],
+        slides: []
     },
     // {
     //     img: "../assets/clipImgs/cuckoo_small.jpg",

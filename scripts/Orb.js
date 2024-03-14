@@ -3,9 +3,9 @@ class Orb {
         this.x = x;
         this.y = y;
         this.rad = radius;
-        let n = [-1, 1];
-        this.xs = n[random(0, 2)]; //x speed&direction
-        this.ys = n[random(0, 2)]; //y speed&direction
+        let n = [-2, -1, 1, 2];
+        this.xs = n[random(0, 4)]; //x speed&direction
+        this.ys = n[random(0, 4)]; //y speed&direction
         this.ctx = ctx;
         this.pop = false;
         this.rest = 25;
