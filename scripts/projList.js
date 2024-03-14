@@ -28,7 +28,7 @@ var projects = [{
         slides: ["cardBalc-bubbles.JPG"]
     },
     {
-        num: 1,
+        num: 2,
         img: "/assets/clipImgs/audio_visualizer_snip.JPG",
         title: "Audio Visualizer",
         desc: "This audio visualizer has a set of music that you can choose from and shows a version of customizable audio visualization for that song.",
@@ -39,7 +39,7 @@ var projects = [{
         slides: []
     },
     {
-        num: 1,
+        num: 3,
         img: "/assets/clipImgs/AR_GlassesClip.jpg",
         title: "Augmented Reality Glasses",
         desc: [
@@ -52,7 +52,7 @@ var projects = [{
         slides: ["cardBalc-bubbles.JPG"]
     },
     {
-        num: 1,
+        num: 4,
         img: "/assets/clipImgs/3dFace.webp",
         title: "Facial Motion Capture",
         desc: [
@@ -65,7 +65,7 @@ var projects = [{
         slides: ["cardBalc-bubbles.JPG"]
     },
     {
-        num: 1,
+        num: 5,
         img: "/assets/clipImgs/LedGrad.jpg",
         title: "BrightMinds",
         desc: [
@@ -78,7 +78,7 @@ var projects = [{
         slides: ["cardBalc-bubbles.JPG"]
     },
     {
-        num: 2,
+        num: 6,
         img: "/assets/clipImgs/factorial_cherry_tree.jpg",
         title: "Fractal Cherry Tree",
         desc: "I used fractals and random lengths to create diffrent tree shapes. Every time you refresh the page it will create a new tree shape",
@@ -89,7 +89,7 @@ var projects = [{
         slides: []
     },
     {
-        num: 3,
+        num: 7,
         img: "/assets/clipImgs/aquarium_small.jpg",
         title: "Aquarium",
         desc: "The fish are on a loop, each type at a diffrent speed, if you hover over them their tail will wiggle.",
@@ -100,7 +100,7 @@ var projects = [{
         slides: []
     },
     {
-        num: 4,
+        num: 8,
         img: "/assets/clipImgs/mrClip.png",
         title: "AR/VR/MR",
         desc: "This was a project that I coded and designed by myself in my first semester at RIT.  It has a breakdown of information about different XR types.",
@@ -111,7 +111,7 @@ var projects = [{
         slides: []
     },
     {
-        num: 5,
+        num: 9,
         img: "/assets/clipImgs/brownieClip.jpg",
         title: "Brownie Recipe",
         desc: "I did all of the coding for this project as well as the design for this project",
@@ -122,7 +122,7 @@ var projects = [{
         slides: []
     },
     {
-        num: 6,
+        num: 10,
         img: "/assets/clipImgs/name.PNG",
         title: "What's in a Name?",
         desc: "I did the HTML and JavaScript for this project working alongside a designer who did the CSS. We created this pulling from an Urban Dictionary API",
