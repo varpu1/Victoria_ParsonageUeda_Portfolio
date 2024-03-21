@@ -17,7 +17,11 @@ function linkSet() {
 
 
     for (let slide of project.slides) {
-        slideShow.push(`https://varpu1.github.io/Victoria_ParsonageUeda_Portfolio/assets/slideAssets/${project.num}/${slide}`)
+        if (slide.includes("http")) {
+            slideShow.push(slide)
+        } else {
+            slideShow.push(`https://varpu1.github.io/Victoria_ParsonageUeda_Portfolio/assets/slideAssets/${project.num}/${slide}`)
+        }
     }
     if (slideShow.length > 1) {
         nextBtn.style.display = "block"
