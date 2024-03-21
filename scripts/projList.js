@@ -25,7 +25,7 @@ var projects = [{
         frameId: "NASA",
         skills: ["Unity", "C#", "AR Kit"],
         tags: ["Game Engine"],
-        slides: ["cardBalc-bubbles.JPG", "Rig_and_play_demo.MOV", "https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=sharing"]
+        slides: ["cardBalc-bubbles.JPG", "Rig_and_play_demo.MOV"] //"https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=sharing"
     },
     {
         num: 2,
