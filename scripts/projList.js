@@ -22,7 +22,7 @@ var projects = [
             "Integral in creating an Indiana Jones inspired game (Starcheologist)",
             "Worked on the communication between game and rig system"
         ],
-        file: "projectsFiles/P1/index.html",
+        file: "",
         frameId: "NASA",
         skills: ["Unity", "C#", "AR Kit"],
         tags: ["Game Engine"],
@@ -44,10 +44,10 @@ var projects = [
         img: "/assets/clipImgs/AR_GlassesClip.jpg",
         title: "Augmented Reality Glasses",
         desc: "Designed, built, and programmed AR glasses that allowed the user to play an obstacle avoidance game by moving their hand levitation ",
-        file: "projectsFiles/P1/index.html",
+        file: "",
         frameId: "ARGlasses",
         skills: ["Arduino", "Soldering", "C++", "Transparent OLED"],
-        tags: ["hardware", "micro electronics"],
+        tags: ["hardware", "microcontroller"],
         slides: [""]
     },
     {
@@ -59,7 +59,7 @@ var projects = [
         frameId: "facialMoCap",
         skills: ["Unreal Engine 4", "Ureal Blueprint", "C++", "Apple iPhone TrueDepth technology"],
         tags: ["Game Engine"],
-        slides: ["mocapRec.mov"]
+        slides: ["moCap.mp4"]
     },
     {
         num: 5,
@@ -86,7 +86,7 @@ var projects = [
         frameId: "cherryTree",
         skills: ["javascript"],
         tags: ["js"],
-        slides: []
+        slides: ["tree1.png"]
     },
     // {
     //     num: 7,
