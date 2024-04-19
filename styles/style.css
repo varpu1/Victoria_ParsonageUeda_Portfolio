@@ -169,6 +169,7 @@ nav a {
     padding: 5px;
     border-right: 2px solid rgb(255, 0, 136);
 }
+#bar{z-index:-1;}
 
 #name {
     /* border:1px solid black; */
@@ -191,11 +192,12 @@ nav a {
 
 #nameplate {
     display: flex;
+    z-index:2;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     /* font-weight: normal; */
     /* font-family: 'Poiret One', cursive; */
     padding: 15px;
@@ -252,13 +254,14 @@ height: 30px; */
 #jsTag {}
 
 canvas {
+    
     width: 99vw;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     position: fixed;
     top: 0;
-    z-index: -1;
+    z-index: -2;
     opacity: .5;
     /* background-color: rgb(193, 220, 222); */
 }
@@ -271,7 +274,7 @@ https://codepen.io/adamriguez/pen/eRaXeq?editors=0100 */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 50px;
+    margin: 0px 50px;
     /* padding: 50px;
 display: flex;
 flex-wrap: wrap;

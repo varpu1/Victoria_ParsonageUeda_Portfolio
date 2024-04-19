@@ -1,14 +1,15 @@
 // const projects = () => {
-var projects = [{
+var projects = [
+    {
         num: 0,
         img: "/assets/clipImgs/fireworks_snip_2.JPG",
         title: "Fireworks Interactive Sandbox",
         desc: "This sandbox allows the user to create different firework like effects",
-        file: "projectsFiles/P1/index.html",
+        file: "https://varpu1.github.io/Fireworks-Sandbox/",
         frameId: "firework",
         skills: ["javascript"],
         tags: ["js"],
-        slides: ["cardBalc-bubbles.JPG", "fireworksDemo.mp4"]
+        slides: ["fireworksDemo.mp4"]
     },
     {
         num: 1,
@@ -25,14 +26,14 @@ var projects = [{
         frameId: "NASA",
         skills: ["Unity", "C#", "AR Kit"],
         tags: ["Game Engine"],
-        slides: ["cardBalc-bubbles.JPG", "Rig_and_play_demo.MOV"] //"https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=sharing"
+        slides: ["Rig_and_play_demo.MOV"] //"https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=sharing"
     },
     {
         num: 2,
         img: "/assets/clipImgs/audio_visualizer_snip.JPG",
         title: "Audio Visualizer",
         desc: "This audio visualizer has a set of music that you can choose from and shows a version of customizable audio visualization for that song.",
-        file: "projectsFiles/P2/index.html",
+        file: "https://varpu1.github.io/Disco-Vision/",
         frameId: "audioVisualizer",
         skills: ["javascript"],
         tags: ["js"],
@@ -47,7 +48,7 @@ var projects = [{
         frameId: "ARGlasses",
         skills: ["Arduino", "Soldering", "C++", "Transparent OLED"],
         tags: ["hardware", "micro electronics"],
-        slides: ["cardBalc-bubbles.JPG"]
+        slides: [""]
     },
     {
         num: 4,
@@ -58,7 +59,7 @@ var projects = [{
         frameId: "facialMoCap",
         skills: ["Unreal Engine 4", "Ureal Blueprint", "C++", "Apple iPhone TrueDepth technology"],
         tags: ["Game Engine"],
-        slides: ["cardBalc-bubbles.JPG"]
+        slides: ["mocapRec.mov"]
     },
     {
         num: 5,
@@ -70,44 +71,44 @@ var projects = [{
             "Did all of the back end and most of the front end development as well as the hardware engineering",
             "Integral in the product design and creation process"
         ],
-        file: "projectsFiles/P1/index.html",
+        file: "https://designed.cad.rit.edu/nmcapstone/project/brightminds",
         frameId: "brightMinds",
-        skills: ["Unity", ""],
-        tags: ["Game Engine"],
-        slides: ["cardBalc-bubbles.JPG"]
+        skills: ["HTML","CSS","JavaScript","arduino","C++","LED Matrix","bluetooth and wifi modules"],
+        tags: ["microcontroller","web"],
+        slides: ["brightMarquee.png","brightPages.png"]
     },
     {
         num: 6,
         img: "/assets/clipImgs/factorial_cherry_tree.jpg",
         title: "Fractal Cherry Tree",
         desc: "I used fractals and random lengths to create diffrent tree shapes. Every time you refresh the page it will create a new tree shape",
-        file: "projectsFiles/trees/index.html",
+        file: "https://varpu1.github.io/CherryTree/",
         frameId: "cherryTree",
         skills: ["javascript"],
         tags: ["js"],
         slides: []
     },
-    {
-        num: 7,
-        img: "/assets/clipImgs/aquarium_small.jpg",
-        title: "Aquarium",
-        desc: "The fish are on a loop, each type at a diffrent speed, if you hover over them their tail will wiggle.",
-        file: "projectsFiles/aquarium/index.html",
-        frameId: "aquarium",
-        skills: ["javascript"],
-        tags: ["js"],
-        slides: []
-    },
+    // {
+    //     num: 7,
+    //     img: "/assets/clipImgs/aquarium_small.jpg",
+    //     title: "Aquarium",
+    //     desc: "The fish are on a loop, each type at a diffrent speed, if you hover over them their tail will wiggle.",
+    //     file: "projectsFiles/aquarium/index.html",
+    //     frameId: "aquarium",
+    //     skills: ["javascript"],
+    //     tags: ["js"],
+    //     slides: []
+    // },
     {
         num: 8,
         img: "/assets/clipImgs/mrClip.png",
         title: "AR/VR/MR",
-        desc: "This was a project that I coded and designed by myself in my first semester at RIT.  It has a breakdown of information about different XR types.",
-        file: "https://people.rit.edu/~vap8665/igme110/2018project/",
+        desc: "This was a project that I coded and designed by myself in my first semester at RIT.  It has a breakdown of information about different XR types. This site utilized a lot of hexagons and has a hexagon navigation.",
+        file: "https://varpu1.github.io/AR_VR_MR/",
         frameId: "XRPaper",
         skills: ["html", "css", "web design"],
         tags: ["web"],
-        slides: []
+        slides: ["navAR.mp4","whereAR.png"]
     },
     {
         num: 9,
@@ -118,7 +119,7 @@ var projects = [{
         frameId: "Brownies",
         skills: ["html", "css"],
         tags: ["web"],
-        slides: []
+        slides: ["brownie_dropdown.png","brownie_main.png"]
     },
     {
         num: 10,
@@ -129,7 +130,7 @@ var projects = [{
         frameId: "whatName",
         skills: ["html", "css", "javascript", "API"],
         tags: ["web", "js"],
-        slides: []
+        slides: ["win_pic.png"]
     },
     // {
     //     img: "/assets/clipImgs/cuckoo_small.jpg",
