@@ -35,8 +35,9 @@ function linkSet() {
 
 function load() {
     slide = slideShow[index]
+    console.log(slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets")))
     slideType = slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets"))
-        console.log(slideType)
+        
     if (slideType == ".mp4"||slideType == ".mov") {
         vidDiv.style.display = "block"
         imgDiv.style.display = "none"
