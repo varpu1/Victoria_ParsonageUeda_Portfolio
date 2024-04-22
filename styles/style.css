@@ -69,8 +69,8 @@ body[theme=light] {
     }
     #modeToggle {
         background-image: url("../assets/icons/whiteMoon.png");
-        -webkit-filter: drop-shadow(5px 5px 5px #3f00a4);
-        filter: drop-shadow(5px 5px 5px #3f00a4);
+        -webkit-filter: drop-shadow(0px 0px 4px #3f00a4);
+        filter: drop-shadow(0px 0px 4px #3f00a4);
     }
     #modeToggle:hover {
         animation: moonSwitch 1s 1;
@@ -103,9 +103,10 @@ body[theme=dark] {
         content: url("../assets/icons/white_color_logo.png");
     }
     #modeToggle {
+        /* background-image */
         background-image: url("../assets/icons/whiteSun.png");
-        -webkit-filter: drop-shadow(5px 5px 5px #ff00b3);
-        filter: drop-shadow(5px 5px 5px #ff00b3);
+        -webkit-filter: drop-shadow(0px 0px 4px #ff00b3);
+        filter: drop-shadow(0px 0px 4px #ff00b3);
         
     }
     #modeToggle:hover {
@@ -130,16 +131,18 @@ a:visited {
     left: 0;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border:none;
+    border-radius: 45%;
     background-image: url("../assets/icons/moonIcon1.JPG");
     /* image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+     background-position: center;
+   background-repeat: no-repeat;
+    background-size: contain;
+    /* object-fit:contain; */
     overflow: hidden;
 
-    -webkit-filter: drop-shadow(5px 5px 5px #ff00b3);
-    filter: drop-shadow(5px 5px 5px #ff00b3);
+    -webkit-filter: drop-shadow(0px 0px 4px #ff00b3);
+    filter: drop-shadow(0px 0px 4px #ff00b3);
 }
 
 #navLogo {
@@ -295,11 +298,12 @@ list-style-type: none; */
 
 @keyframes moonSwitch {
     0% {
-        background-image: url("../assets/icons/moonIcon1.png");
+        transform: rotate(0deg);
+        /* background-image: url("../assets/icons/moonIcon1.png"); */
     }
     50% {
         transform: rotate(45deg);
-        background-image: url("../assets/icons/moonIcon2.png");
+        /* background-image: url("../assets/icons/moonIcon2.png"); */
     }
     100% {
         transform: rotate(0deg);
@@ -308,11 +312,12 @@ list-style-type: none; */
 
 @keyframes sunSwitch {
     0% {
-        background-image: url("../assets/icons/sunIcon1.jpg");
+        transform: rotate(0deg);
+        /* background-image: url("../assets/icons/sunIcon1.jpg"); */
     }
     50% {
         transform: rotate(45deg);
-        background-image: url("../assets/icons/sunicon2.png");
+        /* background-image: url("../assets/icons/sunicon2.png"); */
     }
     100% {
         transform: rotate(0deg);
