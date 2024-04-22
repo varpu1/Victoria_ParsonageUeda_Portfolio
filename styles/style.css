@@ -68,11 +68,13 @@ body[theme=light] {
         content: url("../assets/icons/black_color_logo2.png");
     }
     #modeToggle {
-        background-image: url("../assets/icons/moonIcon1.png");
+        background-image: url("../assets/icons/whiteMoon.png");
+        -webkit-filter: drop-shadow(5px 5px 5px #3f00a4);
+        filter: drop-shadow(5px 5px 5px #3f00a4);
     }
     #modeToggle:hover {
         animation: moonSwitch 1s 1;
-        background-image: url("../assets/icons/moonIcon2.png");
+        /* background-image: url("../assets/icons/moonIcon2.png"); */
     }
     #bar {
         background-color: rgb(184, 241, 234, 25%);
@@ -101,11 +103,14 @@ body[theme=dark] {
         content: url("../assets/icons/white_color_logo.png");
     }
     #modeToggle {
-        background-image: url("../assets/icons/sunIcon1.JPG");
+        background-image: url("../assets/icons/whiteSun.png");
+        -webkit-filter: drop-shadow(5px 5px 5px #ff00b3);
+        filter: drop-shadow(5px 5px 5px #ff00b3);
+        
     }
     #modeToggle:hover {
         animation: sunSwitch 1s 1;
-        background-image: url("../assets/icons/sunicon2.png");
+        /* background-image: url("../assets/icons/sunicon2.png"); */
     }
     #bar {
         background-color: #18072b61;
@@ -132,6 +137,9 @@ a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #ff00b3);
+    filter: drop-shadow(5px 5px 5px #ff00b3);
 }
 
 #navLogo {
