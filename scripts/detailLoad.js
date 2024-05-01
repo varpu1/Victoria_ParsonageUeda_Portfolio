@@ -38,9 +38,8 @@ function load() {
     console.log(slideShow[0])
     console.log(slideShow[0].indexOf("assets"))
     console.log(slide.slice(slide.slice(slide.indexOf("assets")) ))
-    slideType = slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets"))
-        
-    if (slideType == ".mp4"||slideType == ".mov") {
+    slideType = (slideshow[index].slice(0,3)=="http")?".mp4":slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets"))
+ if (slideType == ".mp4"||slideType == ".mov") {
         vidDiv.style.display = "block"
         imgDiv.style.display = "none"
 
