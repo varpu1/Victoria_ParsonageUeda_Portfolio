@@ -21,6 +21,9 @@
     object-fit: contain;
     /* height: 100%; */
 }
+#mediaFrame{
+    min-height:350px;
+}
 
 .info-container {
     display: flex;
