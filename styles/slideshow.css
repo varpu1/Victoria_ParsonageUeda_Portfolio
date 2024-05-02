@@ -11,7 +11,7 @@
 }
 
 #mediaImg,
-#media video {
+#media video, #mediaFrame {
     display: none;
     max-height: 47vh;
     /* position: absolute; */

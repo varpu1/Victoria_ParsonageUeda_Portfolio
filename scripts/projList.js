@@ -26,7 +26,7 @@
             frameId: "NASA",
             skills: ["Unity", "C#", "AR Kit"],
             tags: ["Game Engine"],
-            slides: ["https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=drive_link"]//"Rig_and_play_demo.mov" ] //"https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=sharing"
+            slides: ["https://youtu.be/O3LjhjLxVg8","https://youtu.be/HHu8skD68-4"]//"Rig_and_play_demo.mov" ] //"https://drive.google.com/file/d/1vqGxxUZWva4LFxZNP9TlbAV2H-MelZis/view?usp=sharing"
         },
         {
             num: 2,

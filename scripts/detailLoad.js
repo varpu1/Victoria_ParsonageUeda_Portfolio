@@ -1,5 +1,6 @@
 const linkBtn = document.querySelector("#projectLink");
 const imgDiv = document.querySelector("#mediaImg");
+const frameDiv = document.querySelector("#mediaFrame");
 const vidDiv = document.querySelector("#mediaVid")
 const vidDivSrc = document.querySelector("#mediaVidSrc")
 const nextBtn = document.querySelector("#nextBtn")
@@ -38,9 +39,12 @@ function load() {
     console.log(slideShow[0])
     console.log(slideShow[0].indexOf("assets"))
     console.log(slide.slice(slide.slice(slide.indexOf("assets")) ))
-    slideType = (slideshow[index].slice(0,3)=="http")?".mp4":slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets"))
- if (slideType == ".mp4"||slideType == ".mov") {
+    slideType = (slideShow[index].slice(0,4)=="http")?"frame":slide.slice(slide.slice(slide.indexOf("assets")).indexOf(".") + slide.indexOf("assets"))
+ console.log("slidType: "+slideType)
+
+    if (slideType == ".mp4"||slideType == ".mov") {
         vidDiv.style.display = "block"
+        frameDiv.style.display = "none"
         imgDiv.style.display = "none"
 
         vidDivSrc.src = slide
@@ -52,8 +56,15 @@ function load() {
         if (vidDiv.readyState == 4) {
             console.log("loaded")
         }
-    } else {
+    } else if(slideType=="frame"){
+        frameDiv.style.display = "block"
         vidDiv.style.display = "none"
+        imgDiv.style.display = "none"
+        
+        frameDiv.src=slide
+    }else {
+        vidDiv.style.display = "none"
+        frameDiv.style.display = "none"
         imgDiv.style.display = "block"
 
         imgDiv.src = slide
