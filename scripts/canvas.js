@@ -44,7 +44,7 @@ function loop() {
     }
 }
 window.onclick = spawn;
-
+canvas.addEventListener("touchstart",spawn)
 function spawn(e) {
     // let rect = e.target.getBoundingClientRect();
     let mouseX, mouseY;
